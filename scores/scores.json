@@ -2,22 +2,22 @@
   "testScores": {
     "CartItem Tests": {
       "CaTe1": 1,
-      "CaTe2": 0,
-      "CaTe3": 0
+      "CaTe2": 1,
+      "CaTe3": 1
     },
     "ShoppingCart Tests": {
       "ShTe1": 1,
-      "ShTe2": 0,
-      "ShTe3": 0,
-      "ShTe4": 0,
-      "ShTe5": 0,
-      "ShTe6": 0,
-      "ShTe7": 0,
-      "ShTe8": 0,
-      "ShTe9": 0,
-      "ShTe10": 0,
-      "ShTe11": 0,
-      "ShTe12": 0
+      "ShTe2": 1,
+      "ShTe3": 1,
+      "ShTe4": 1,
+      "ShTe5": 1,
+      "ShTe6": 1,
+      "ShTe7": 1,
+      "ShTe8": 1,
+      "ShTe9": 1,
+      "ShTe10": 1,
+      "ShTe11": 1,
+      "ShTe12": 1
     }
   },
   "idToTestNameHash": {
@@ -52,11 +52,26 @@
     "vite-project/src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart has a static listAll method": "ShTe9",
     "vite-project/src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.listAll() returns a list of all instances of ShoppingCart": "ShTe10",
     "vite-project/src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.listAll() returns a copy of the private list of carts, not the original": "ShTe11",
-    "vite-project/src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.findBy returns the correct cart when given an id": "ShTe12"
+    "vite-project/src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.findBy returns the correct cart when given an id": "ShTe12",
+    "src/model/CartItem.spec.js > CartItem Tests > CartItem.js exports a CartItem class": "CaTe1",
+    "src/model/CartItem.spec.js > CartItem Tests > Instances of CartItem have the correct instance properties": "CaTe2",
+    "src/model/CartItem.spec.js > CartItem Tests > Instances of CartItem have unique, ascending ids, starting with 1": "CaTe3",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.js exports a ShoppingCart class": "ShTe1",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > Instances of ShoppingCart have the correct instance properties. Private properties are not accessible.": "ShTe2",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > Instances of ShoppingCart have unique, ascending ids, starting with 1": "ShTe3",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > cart.createItem instantiates and returns a new CartItem": "ShTe4",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > cart.getItems() returns an array of all cart items": "ShTe5",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > cart.getItems() returns a copy of the private cart items array": "ShTe6",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > cart.getTotal() returns the sum of all cart item prices": "ShTe7",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > cart.removeItem() removes a cart item by id": "ShTe8",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart has a static listAll method": "ShTe9",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.listAll() returns a list of all instances of ShoppingCart": "ShTe10",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.listAll() returns a copy of the private list of carts, not the original": "ShTe11",
+    "src/model/ShoppingCart.spec.js > ShoppingCart Tests > ShoppingCart.findBy returns the correct cart when given an id": "ShTe12"
   },
   "humanReadable": {
-    "CartItem Tests": "1/3",
-    "finalTestScore": "FINAL SCORE: 2/15",
-    "ShoppingCart Tests": "1/12"
+    "CartItem Tests": "3/3",
+    "finalTestScore": "FINAL SCORE: 15/15",
+    "ShoppingCart Tests": "12/12"
   }
 }
