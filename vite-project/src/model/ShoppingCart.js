@@ -1,7 +1,7 @@
 import { getRunningMode } from "vitest";
 import getId from "../utils/getId";
 import CartItem from "./CartItem";
-
+/** FEEDBACK: Great job getting all test cases to pass! */
 class ShoppingCart {
   id = getId()
   #cartItems = []
